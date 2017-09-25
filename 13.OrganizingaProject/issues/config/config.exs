@@ -6,3 +6,5 @@ config :issues,
 github_url: "https://api.github.com",
 output_columns: ["id", "created_at", "title"]
 
+config :logger, compile_time_purge_level: :info
+
