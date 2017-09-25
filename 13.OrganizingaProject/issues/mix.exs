@@ -23,6 +23,7 @@ defmodule Issues.Mixfile do
     [
       {:httpoison, "~> 0.13"},
       {:poison, "~> 3.1"},
+      {:credo, ">= 0.0.0"},
     ]
   end
 end
